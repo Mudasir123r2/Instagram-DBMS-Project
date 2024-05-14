@@ -24,6 +24,10 @@ The database schema consists of the following tables:
 
 10. Post_tags: Maps posts to their associated tags.
 
+11. Hashtags: Stores information about hashtags associated with posts.
+
+
+
 Constraints
 
 - The post_type column in the Post table is constrained to accept only values 'Image' or 'Video'.
@@ -55,7 +59,3 @@ Test Cases
 Usage
 
 To use this database schema, you can create the tables using the provided SQL scripts and then execute SQL queries to interact with the database.
-
-
-12. Hashtags: Stores information about hashtags associated with posts.
-
