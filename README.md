@@ -1,6 +1,7 @@
 # Instagram-DBMS-Project
 This project involves designing and implementing a database schema for an Instagram-like social media platform. The schema includes tables for users, posts, messages, followers, stories, comments, likes, notifications, tags, and their relationships. The database is implemented using SQL (Structured Query Language).
-Database Schema
+
+**Database Schema**
 
 The database schema consists of the following tables:
 
@@ -28,7 +29,7 @@ The database schema consists of the following tables:
 
 
 
-Constraints
+**Constraints**
 
 - The post_type column in the Post table is constrained to accept only values 'Image' or 'Video'.
 - Foreign key constraints are applied to ensure data integrity, such as the user_id foreign key in the Post table referencing the user_id primary key in the User table.
@@ -56,6 +57,6 @@ Test Cases
 19. Retrieve all stories uploaded by users on or before a specific date.
 20. Retrieve all comments made by users with a specific gender.
 
-Usage
+**Usage**
 
 To use this database schema, you can create the tables using the provided SQL scripts and then execute SQL queries to interact with the database.
